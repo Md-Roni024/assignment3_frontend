@@ -64,6 +64,7 @@ This frontend part is built using following tools & technologies:
 
   <img src="./responsive_2.png" alt="Mobile Image 1" width="200" height="auto" style="margin-right: 10px;"/>
   <img src="./responsive_3.png" alt="Mobile Image 2" width="200" height="auto"/>
+  <img src="./responsive_4.png" alt="Mobile Image 2" width="200" height="auto"/>
 
 </div>
 
