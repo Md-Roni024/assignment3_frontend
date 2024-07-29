@@ -30,12 +30,12 @@ This frontend part is built using following tools & technologies:
 1. <h4>Clone the project</h4>
 
     ```bash
-    git clone https://github.com/Md-Roni024/Full_Stack-_Assignment
+    git clone https://github.com/Md-Roni024/assignment3_frontend
     ```  
 2. <h4>Navigate to frontend directory and install dependencies</h4>
 
     ```
-    cd frontend
+    cd assignment3_frontend
     npm install
     ```
 3. <h4>Start the frontend</h4>
@@ -57,7 +57,7 @@ This frontend part is built using following tools & technologies:
 
 ### Screenshot
 - Desktop View
-  ![Desktop Image](./frontend_1.png)
+  ![Desktop Image](./desktop_view.png)
 - Mobile View
 
  <div style="display: flex; justify-content: space-between;">
