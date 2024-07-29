@@ -57,7 +57,7 @@ This frontend part is built using following tools & technologies:
 
 ### Screenshot
 - Desktop View
-  ![Desktop Image](./desktop_view.png)
+  ![Desktop Image](./desktop_2.png)
 - Mobile View
 
  <div style="display: flex; justify-content: space-between;">
