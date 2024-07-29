@@ -1,0 +1,181 @@
+/* Start Check Availability Section */
+.check-availability {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.host-onboard{
+    width: 100%;
+    line-height: 60%;
+}
+.details {
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+.new-tag {
+    color:black;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.host-info {
+    gap: 20px;
+    display: flex;
+    line-height: 50%;
+}
+.host-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* .host-details p{
+    font-size: 16px;
+    line-height: 40%;
+} */
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    line-height: 50%;
+}
+.feature-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.translation-notice {
+    background-color: #f7f2f2;
+    padding: 10px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 7%;
+    width: 85%;
+    /* position: absolute; */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.show-original {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+}
+.description {
+    font-size: 16px;
+    margin: 30px 0px;
+    line-height: 1.4;
+    /* margin-bottom: 10px; */
+    width: 85%;
+}
+.show-more {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+}
+.sidebar {
+    width: 40%;
+}
+.booking-card {
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+.booking-title {
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 100px;
+}
+.date-inputs {
+    display: flex;
+    margin-bottom: 0;
+}
+.date-input {
+    width: 50%;
+    border: 1px solid #b0b0b0;
+    margin-bottom: 0;
+}
+.date-input:first-child {
+    /* border-right: none; */
+    border-radius: 4px 0 0 0;
+}
+.date-input:last-child {
+    border-radius: 0 4px 0 0;
+}
+.date-input label {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 12px 0;
+}
+.date-input input {
+    width: 80%;
+    padding: 0 12px 8px;
+    border: none;
+    font-size: 14px;
+}
+.guests-dropdown {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b0b0b0;
+    border-radius: 0 0px 4px 4px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+.check-availability-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #FF385C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.report-link {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    /* text-decoration: underline; */
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.report-text{
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.divider-1{
+    width: 100%;
+    background: linear-gradient(to right, red, yellow);
+    height: 2.5px;
+    /* margin-top: 3%; */
+    /* margin-right: 20%; */
+}
+.divider-2{
+    margin-top: 1%;
+    margin-right: 15%;
+    background: linear-gradient(to right, red, yellow);
+    height: 2.5px;
+    max-width: 700px;
+    margin-left: 0;
+}
+.divider-3{
+    margin-top: 8%;
+    margin-right: 15%;
+    background: linear-gradient(to right, red, yellow);
+    height: 2.5px;
+}
+
+
+
+/* End Check Availability Section */

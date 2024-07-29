@@ -1,0 +1,212 @@
+.image-gallary{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* width: 100%; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  
+  .image-grid {
+    height: 500px;
+    gap: 10px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+  }
+  .main-image{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .small-image{
+    width: 25%;
+    height: 50%;
+    float: left;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .image-gallary-icon h2{
+    margin-top: 10px;
+  }
+  .image-gallary-icon .left{
+    margin: 10px 0px;
+  }
+  .image-gallary-icon-down{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+  }
+  #image-gallary-icon-down-left{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .image-gallary-icon-down-right{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .image-gallary .image-gallary-icon{
+    display: flex;
+    justify-content: space-between;
+  }
+  .image-gallary-icon-up{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+  }
+  /* Share Modal */
+.share-modal-class {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+.share-photo-close {
+  float: right;
+  cursor: pointer;
+  font-size: 24px;
+}
+.share-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+.share-btn {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#copyLink {
+  grid-column: span 2;
+}
+.heart-icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  transition: fill 0.3s ease, color 0.3s ease;
+}
+.heart-icon.active {
+  fill: red;
+  color: red;
+}
+.rental-summary img{
+  float: left; 
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* End Share Modal */
+/* Navigation */
+/* .show-all-photos-btn {
+  position: absolute;
+  bottom: 12%;
+  right: 2%;
+  padding: 10px 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+.photo-modal {
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.9);
+}
+.photoModal img{
+  width: 100%;
+}
+.modal-content-photo {
+  margin: 150px auto;
+  display: block;
+  width: 45%;
+  max-width: 700px;
+  height: 500px;
+  position: relative;
+}
+.photo-close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 50px;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+/* .navigation {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+} */
+.navigation {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  z-index: 1001; /* Ensure it's above the image */
+}
+/* .nav-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+} */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 36px;
+  cursor: pointer;
+  z-index: 1001; /* Ensure it's above the image */
+}
+#imageCounter {
+  margin: 0 10px;
+}
+#prevBtn {
+  left: 20px;
+}
+#nextBtn {
+  right: 20px;
+}
+
+/* Navigation End */

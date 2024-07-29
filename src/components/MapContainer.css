@@ -1,0 +1,25 @@
+/* Start Map */
+.map-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map-image{
+    width: 1000px;
+    border-radius: 8px;
+}
+/* .map-image-mobile{
+    width: 500px;
+    border-radius: 8px;
+} */
+.map-container .show-more{
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.map-container .map-heading{
+    margin: 0 10px;
+}
+/* End Map Section */

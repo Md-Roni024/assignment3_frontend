@@ -1,0 +1,173 @@
+
+/* Start Host section */
+.host-profile{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.profile-container {
+    display: flex;
+    gap: 30px;
+}
+
+.profile-card {
+    background: rgb(207, 201, 201);
+    border-radius: 20px;
+    padding: 20x;
+    box-shadow: 0 8px 10px rgba(85, 77, 77, 0.1);
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.left-card{
+    /* width: 400px; */
+    margin-top: 30px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+/* .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #FF385C;
+    border-radius: 50%;
+    padding: 5px;
+} */
+
+h3 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+.superhost {
+    color: rgb(78, 75, 75);
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.stats {
+   margin-top:20px;
+   margin-left: 15px;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px 8px 50px;
+}
+
+.stats strong {
+    font-size: 18px;
+}
+
+.stats span {
+    font-size: 14px;
+    color: #4d4c4c;
+}
+
+.host-info {
+    gap: 10px;
+    display: flex;
+}
+.host-info-card{
+    gap: 10px;
+    margin-top: 0px;
+    /* display: flex; */
+}
+
+.superhost-info, .co-hosts, .host-details {
+    margin-bottom: 25px;
+}
+.host-details p{
+    font-size: 16px;
+    line-height: 40%;
+}
+
+/* h4 {
+    font-size: 16px;
+    margin: 0;
+} */
+
+.co-host-avatars {
+    display: flex;
+    gap: 10px;
+}
+
+.co-host-avatars img, .avatar-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-placeholder {
+    background: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.message-host {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.additional-info {
+    margin-top: 20px;
+}
+
+.icon-birth, .icon-work {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.bio {
+    margin: 25px 0;
+}
+
+/* .show-more {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+} */
+.co-host-name {
+    font-size: 14px;
+    margin-left: 4px;
+    padding: 10px 0px;
+}
+/* hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 0px 0px 0px 35px;
+
+} */
+.amenity-icon-card{
+    width: 20px;
+    height: 20px;
+    margin:10px 15px 0 0;
+}
+.divider-4{
+    margin-left: 40px;
+    height: 2px;
+    background-color: black;
+}
+
+/* End New host Card Section */
