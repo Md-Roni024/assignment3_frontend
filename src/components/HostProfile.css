@@ -1,5 +1,3 @@
-
-/* Start Host section */
 .host-profile{
     margin: 0 auto;
     max-width: 1200px;
@@ -22,7 +20,6 @@
     
 }
 .left-card{
-    /* width: 400px; */
     margin-top: 30px;
 }
 
@@ -34,14 +31,6 @@
     margin-top: 30px;
 }
 
-/* .badge {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #FF385C;
-    border-radius: 50%;
-    padding: 5px;
-} */
 
 h3 {
     font-size: 20px;
@@ -82,7 +71,6 @@ h3 {
 .host-info-card{
     gap: 10px;
     margin-top: 0px;
-    /* display: flex; */
 }
 
 .superhost-info, .co-hosts, .host-details {
@@ -92,11 +80,6 @@ h3 {
     font-size: 16px;
     line-height: 40%;
 }
-
-/* h4 {
-    font-size: 16px;
-    margin: 0;
-} */
 
 .co-host-avatars {
     display: flex;
@@ -143,22 +126,12 @@ h3 {
     margin: 25px 0;
 }
 
-/* .show-more {
-    color: #222;
-    text-decoration: none;
-    font-weight: bold;
-} */
 .co-host-name {
     font-size: 14px;
     margin-left: 4px;
     padding: 10px 0px;
 }
-/* hr {
-    border: none;
-    border-top: 1px solid #dddddd;
-    margin: 0px 0px 0px 35px;
 
-} */
 .amenity-icon-card{
     width: 20px;
     height: 20px;
@@ -169,5 +142,3 @@ h3 {
     height: 2px;
     background-color: black;
 }
-
-/* End New host Card Section */

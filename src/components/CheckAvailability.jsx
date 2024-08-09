@@ -38,9 +38,6 @@ const CheckAvailability = ({name,image,guestCount,bedroomCount,bathroomCount,hot
         <div className="translation-notice">
           Some info has been automatically translated. <a href="#" className="show-original">Show original</a>
         </div>
-        {/* <p className="description">
-          Welcome to our brand-new 1 bedroom apartment, in a quiet and central location next to a park!
-        </p> */}
         <p className="description">
           It's conveniently located in Pueblo Libre, just 25min. away from the airport. Steps away from Clinica Stella Maris, Universidad Antonio Ruiz de Montoya, Instituto Británico, Hospital Santa Rosa, YMCA Peru and Alas Peruanas University. It's also very close to La ...
           {hotelDescription}

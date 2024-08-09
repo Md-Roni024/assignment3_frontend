@@ -1,7 +1,6 @@
 import React from 'react';
 import './HostProfile.css';
-import host from './roni_profile.jpg';
-import hotelData from '../components/config/data'
+import hotelData from '../components/constant/data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBriefcase } from '@fortawesome/free-solid-svg-icons'
 
@@ -53,8 +52,6 @@ const HostProfile = ({ name, image, email, phone }) => {
                 <div className="co-hosts">
                   <h4>Co-hosts</h4>
                   <div className="co-host-avatars">
-                    {/* <img src={host}alt="Percy" title="Percy"/>
-                    <span className="co-host-name">Percy</span> */}
                     <div className="avatar-placeholder">R</div>
                     <span className="co-host-name">Raul</span>
                     <div className="avatar-placeholder">A</div>

@@ -1,22 +1,9 @@
-/* Start Calanders Section */
 .calendar-wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
-/* h1 {
-    font-size: 24px;
-    font-weight: normal;
-    margin-bottom: 5px;
-}
-p {
-    color: #666;
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 14px;
-} */
 .calendar-container {
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 30px;
@@ -80,5 +67,3 @@ td {
 .calendar-wrapper p{
     line-height:normal;
 }
-
-/* End Calanders Section */

@@ -1,75 +1,71 @@
-/* Start Navbar Desktop */
 .navbar-desktop{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100%; */
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 0;
-  }
-  .search-container{
-    display: flex;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
-    background-color: white;
-    border-radius: 40px;
-    padding: 5px 0px;
-    align-items: center;
-    width: 40%;
-    margin-left: 25%;
-  }
-  input{
-    border: none;
-    outline: none;
-    padding: 10px;
-    font-size: 14px;
-    margin-left: 3px;
-    width: 26%;
-  }
-  .divider {
-    height: 24px;
-    width: 1px;
-    background-color: #ccc;
-    margin: 0 10px;
-  }
-  input::placeholder{
-    color: #333;
-  }
-  .search-button{
-    background-color: #ff385c;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    margin-left: 10px;
-  }
-  .right-section {
-    display: flex;
-    align-items: center;
-  }
-  .icon-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    margin-left: 4px;
-  }
-  .user-menu{
+}
+.search-container{
+  display: flex;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+  background-color: white;
+  border-radius: 40px;
+  padding: 5px 0px;
+  align-items: center;
+  width: 40%;
+  margin-left: 25%;
+}
+input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 3px;
+  width: 26%;
+}
+.divider {
+  height: 24px;
+  width: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+input::placeholder{
+  color: #333;
+}
+.search-button{
+  background-color: #ff385c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+}
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 4px;
+}
+.user-menu{
     border: 1px solid;
     border-radius: 20px;
     text-align: center;
     padding: 6px 2px;
     margin-left: 10px;
-  }
-  
-  /* End Navbar Desktop */
-  /* Start Navbar Mobile */
+}
+
 .navbar-mobile{
   display: flex;
   justify-content: space-between;
@@ -115,9 +111,7 @@
   font-size: 18px;
   margin-left: 4px;
 }
-/* End Navbar Mobile */
 
-  /* Second Nav and Othes */
 #second-nav {
   display: block;
   background-color: white;
@@ -216,10 +210,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* End Second Nav and Others */
-
-
-/* Date Picker Modal */
 #date-picker-modal {
   display: block;
   position: absolute;

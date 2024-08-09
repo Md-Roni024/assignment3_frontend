@@ -3,7 +3,6 @@ import './Room.css';
 import { Link } from 'react-router-dom';
 
 const Room = ({ room }) => {
-  // const [roomdata, setRoomData] = useState([]);
 
   const displayedRooms = room.slice(0, 3);
   return (

@@ -117,7 +117,6 @@ const ImageGallary = ({imagesUrl,title,bedroom,bathroom,guest}) => {
                     <span className="share-photo-close" onClick={handleCloseModal}>&times;</span>
                     <h2>Share this place</h2>
                     <div className="rental-summary">
-                    {/* style="float: left; margin-right: 10px;border-radius: 5px;" */}
                         <img src={img2} width="50px" height="50px" alt="Rental thumbnail"/>
                         <p>Rental unit in Lima · ★New · 1 bedroom · 1 bed · 1 bath</p>
                     </div>

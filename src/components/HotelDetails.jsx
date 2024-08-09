@@ -11,6 +11,7 @@ import Calendar from './Calander';
 import Review from './Review';
 import MapContainer from './MapContainer';
 import HostProfile from './HostProfile';
+import config from '../config/config.json'
 
 function HotelDetails() {
   const [hotel, setHotel] = useState(null);
@@ -23,10 +24,10 @@ function HotelDetails() {
     const fetchHotelData = async () => {
       try {
         setLoading(true);
-        await new Promise(resolve => setTimeout(resolve, 3000));//Delay for Shimmer effect
+        await new Promise(resolve => setTimeout(resolve, 3000));
 
-        const hotelResponse = await fetch(`http://localhost:8000/hotel/${slug}`);
-        const roomsResponse = await fetch(`http://localhost:8000/hotel/${slug}/rooms`);
+        const hotelResponse = await fetch(`${config.apiBaseUrl}/${slug}`);
+        const roomsResponse = await fetch(`${config.apiBaseUrl}/hotel/${slug}/rooms`);
 
         if (!hotelResponse.ok || !roomsResponse.ok) {
           throw new Error('Network response was not ok');

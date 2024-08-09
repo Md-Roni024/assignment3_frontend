@@ -1,6 +1,5 @@
 import React from 'react';
 import './Calander.css';
-import img2 from './2.png';
 
 const Calendar = () => {
   return (
@@ -9,7 +8,6 @@ const Calendar = () => {
       <p>Add your travel dates for exact pricing</p>
 
       <div className="calendar-container">
-        {/* Month July 2024 */}
         <div className="month">
           <div className="month-header">
             <span className="arrow left">&lt;</span>
@@ -78,7 +76,6 @@ const Calendar = () => {
           </table>
         </div>
 
-        {/* Month August 2024 */}
         <div className="month">
           <div className="month-header">
             <span className="arrow left">&lt;</span>
